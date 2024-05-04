@@ -8,10 +8,9 @@ This proposed a slightly more complicated solution, as in order to do a CAN gate
 I followed the most logical appraoch I could think of. And that was to modurarly build the code and hardware up. Otherwise I would just get lost.
 
 Step1. Prove that I could do a CAN gateway with arduino. 
-    For this I used two MCP2515 boards. I have put the PIN out diagram in the folder. The biggest      issue here was that initially I was trying to use the same chip select PIN on the arduino to 
-    drive the motherboards and send and recieve a CAN message.
+For this I used two MCP2515 boards. I have put the PIN out diagram in the folder. The biggest issue here was that initially I was trying to use the same chip select PIN on the arduino to drive the motherboards and send and recieve a CAN message.
 
-    As I later found the chip sleect is used to determine which chip the SPI bus should listen to      at any given time. I was asking the boards to carry out the same tasks at the same time.
+As I later found the chip sleect is used to determine which chip the SPI bus should listen to at any given time. I was asking the boards to carry out the same tasks at the same time.
 
 ![Screenshot](https://github.com/CameronCode22/CANGateway/blob/main/Image_Folder_GitHub/CAN_Passthrough.png)
 
