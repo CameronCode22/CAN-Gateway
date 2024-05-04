@@ -5,13 +5,14 @@ Introduction: The CAN gateway was designed in order to block current signals on 
 
 This proposed a slightly more complicated solution, as in order to do a CAN gateway you need to physically splice the bus. This is my proof of concept I built with an Arduino:
 
-I followed the most logical appraoch I could think of. And that was to modurarly build the code and hardware up. Otherwise I would just get lost.
+I followed the most logical appraoch I could think of. And that was to modurarly build the code and hardware up.
 
-Step1. Prove that I could do a CAN gateway with arduino. 
-For this I used two MCP2515 boards. I have put the PIN out diagram in the folder. The biggest issue here was that initially I was trying to use the same chip select PIN on the arduino to drive the motherboards and send and recieve a CAN message.
+Step 1 was to use the motherboards as one transciever and one reciever. While altering two bytes.
+Step 2 was to test the LCD screen in isolation
+Step 3 was to test the LCD along with the joystick
+Final was to implement step 3 and the CAN gateway together, using functions for the CAN bypass and blocking certain signals I wanted to change
 
-As I later found the chip sleect is used to determine which chip the SPI bus should listen to at any given time. I was asking the boards to carry out the same tasks at the same time.
-
+This image shows the CAN passthrough function working correctly. Passing one signal from CAN1 onto CAN2
 ![Screenshot](https://github.com/CameronCode22/CAN-Gateway/blob/main/Image_Folder_GitHub/CAN_Passthrough.png?raw=true)
 
 
