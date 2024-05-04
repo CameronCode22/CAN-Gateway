@@ -12,6 +12,8 @@ For this I used two MCP2515 boards. I have put the PIN out diagram in the folder
 
 As I later found the chip sleect is used to determine which chip the SPI bus should listen to at any given time. I was asking the boards to carry out the same tasks at the same time.
 
-![Screenshot](https://raw.githubusercontent.com/CameronCode22/CANGateway/main/Image_Folder_GitHub/CAN_Passthrough.png](https://github.com/CameronCode22/CAN-Gateway/blob/main/Image_Folder_GitHub/CAN_Passthrough.png)
+![Screenshot](https://raw.githubusercontent.com/CameronCode22/CANGateway/main/Image_Folder_GitHub/CAN_Passthrough.png)
+
+
 
 
