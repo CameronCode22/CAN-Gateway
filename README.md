@@ -13,5 +13,5 @@ Step1. Prove that I could do a CAN gateway with arduino.
 
     As I later found the chip sleect is used to determine which chip the SPI bus should listen to      at any given time. I was asking the boards to carry out the same tasks at the same time.
 
-    ![Screenshot](Image_Folder_GitHub/CAN_Passthrough.png)
+![Screenshot](https://github.com/CameronCode22/CANGateway/blob/main/Image_Folder_GitHub/CAN_Passthrough.png)
 
