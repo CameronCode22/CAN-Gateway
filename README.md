@@ -16,14 +16,21 @@ Step 2 was to test the LCD screen in isolation
 Step 3 was to test the LCD along with the joystick
 Final was to implement step 3 and the CAN gateway together, using functions for the CAN bypass and blocking certain signals I wanted to change
 
-This image shows the CAN passthrough function working correctly. Passing one signal from CAN1 onto CAN2
-![Screenshot](https://github.com/CameronCode22/CAN-Gateway/blob/main/Image_Folder_GitHub/CAN_Passthrough.png?raw=true)
 
 
 # What the Customer Wanted
+a CAN-bus gateway in order to block exisiting signals, edit them and send them back onto the CAN-bus. They wanted a protype proof of concept, that they could manipulate the signals. Hence the choice for a CAN gateway rather than using developement signals and using a seperate node through the OBD port.
 
 # What I Did
+Created the concept, purchased required equipment, including the MCP-2515 CAN motherboards. 
+Created the wiring input and boards
+Delibvered business plan including extenral suppliers to the business
+Risks, cost analysis
+C++ code to operate
+CANoe trace and replication to test gateway
 
 # Results and Impact
 
 
+This image shows the CAN passthrough function working correctly. Passing one signal from CAN1 onto CAN2
+![Screenshot](https://github.com/CameronCode22/CAN-Gateway/blob/main/Image_Folder_GitHub/CAN_Passthrough.png?raw=true)
