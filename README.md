@@ -1,4 +1,8 @@
 # CAN-Gateway
+![Screenshot](https://github.com/CameronCode22/CAN-Gateway/blob/main/Image_Folder_GitHub/CAN_Gateway.jpg)
+
+
+
 Arduino CAN communication with LED &amp; toggle switch in order to select weight changes
 
 Introduction: The CAN gateway was designed in order to block current signals on the CAN-bus. Edit them and put them back onto the bus. This method was chosen opposed to using developement signals in the electronic control units and sending messages to the module. Due to timing constraints.
