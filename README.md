@@ -1,5 +1,5 @@
 # CAN Gateway Project
-What the Customer Wanted
+# What the Customer Wanted
 The client requested a CAN-bus gateway to block existing signals, edit them, and resend them on the CAN-bus. They required a prototype proof of concept to manipulate signals, opting for a CAN gateway over development signals and a separate node via the OBD port.
 # What I Did
 Concept Creation: Designed and implemented the CAN gateway.
