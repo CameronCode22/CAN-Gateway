@@ -1,4 +1,5 @@
 # CAN Gateway Project
+![Screenshot](https://github.com/CameronCode22/CAN-Gateway/blob/main/Image_Folder_GitHub/Block%20Diagram.png)
 # What the Customer Wanted
 The client requested a CAN-bus gateway to block existing signals, edit them, and resend them on the CAN-bus. They required a prototype proof of concept to manipulate signals, opting for a CAN gateway over development signals and a separate node via the OBD port.
 # What I Did
