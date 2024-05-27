@@ -2,12 +2,12 @@
 # What the Customer Wanted
 The client requested a CAN-bus gateway to block existing signals, edit them, and resend them on the CAN-bus. They required a prototype proof of concept to manipulate signals, opting for a CAN gateway over development signals and a separate node via the OBD port.
 # What I Did
-Concept Creation: Designed and implemented the CAN gateway.
-Equipment: Purchased MCP-2515 CAN motherboards and other necessary components.
-Hardware Setup: Created wiring and boards for input.
-Business Plan: Delivered including external suppliers, risks, and cost analysis.
-Coding: Developed C++ code for operation.
-Testing: Used CANoe trace and replication to validate the gateway.
+- Concept Creation: Designed and implemented the CAN gateway.
+- Equipment: Purchased MCP-2515 CAN motherboards and other necessary components.
+- Hardware Setup: Created wiring and boards for input.
+- Business Plan: Delivered including external suppliers, risks, and cost analysis.
+- Coding: Developed C++ code for operation.
+- Testing: Used CANoe trace and replication to validate the gateway.
 # Results and Impact
 Successfully built and demonstrated a fully functional CAN gateway.
 Enabled the client to manipulate CAN-bus signals effectively.
